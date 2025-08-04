@@ -40,7 +40,4 @@ public class Card {
 
     @Column(length = 100)
     private String description;
-
-    @Column(length = 2)
-    private String code;
 }

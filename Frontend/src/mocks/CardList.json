@@ -1,0 +1,786 @@
+[
+  {
+    "id": 1,
+    "name": "Goku",
+    "image": "https://example.com/images/goku.png",
+    "attributes": {
+      "attack": 98,
+      "defense": 90,
+      "speed": 97,
+      "ki": 99,
+      "stamina": 96,
+      "special": 98
+    },
+    "description": "Un Saiyan criado en la Tierra, cuyo amor por la lucha y su corazón puro lo convierten en el mayor defensor del universo."
+  },
+  {
+    "id": 2,
+    "name": "Vegeta",
+    "image": "https://example.com/images/vegeta.png",
+    "attributes": {
+      "attack": 97,
+      "defense": 88,
+      "speed": 96,
+      "ki": 95,
+      "stamina": 94,
+      "special": 96
+    },
+    "description": "El orgulloso príncipe de la raza Saiyan, un guerrero de élite cuya única meta es superar a su eterno rival, Goku."
+  },
+  {
+    "id": 3,
+    "name": "Gohan",
+    "image": "https://example.com/images/gohan.png",
+    "attributes": {
+      "attack": 94,
+      "defense": 85,
+      "speed": 92,
+      "ki": 93,
+      "stamina": 89,
+      "special": 95
+    },
+    "description": "Hijo de Goku, un híbrido Saiyan-humano con un potencial latente inmenso que se desata en momentos de gran necesidad."
+  },
+  {
+    "id": 4,
+    "name": "Piccolo",
+    "image": "https://example.com/images/piccolo.png",
+    "attributes": {
+      "attack": 88,
+      "defense": 92,
+      "speed": 85,
+      "ki": 89,
+      "stamina": 91,
+      "special": 90
+    },
+    "description": "Un Namekiano sabio y estratega formidable, antiguo enemigo de Goku que se convirtió en uno de sus más leales aliados y mentor de Gohan."
+  },
+  {
+    "id": 5,
+    "name": "Krillin",
+    "image": "https://example.com/images/krillin.png",
+    "attributes": {
+      "attack": 75,
+      "defense": 70,
+      "speed": 80,
+      "ki": 78,
+      "stamina": 82,
+      "special": 81
+    },
+    "description": "El mejor amigo de Goku desde la infancia. A pesar de ser humano, su valentía y su Kienzan (Disco Destructor) lo hacen un guerrero respetado."
+  },
+  {
+    "id": 6,
+    "name": "Future Trunks",
+    "image": "https://example.com/images/future_trunks.png",
+    "attributes": {
+      "attack": 92,
+      "defense": 84,
+      "speed": 93,
+      "ki": 90,
+      "stamina": 88,
+      "special": 91
+    },
+    "description": "Hijo de Vegeta y Bulma de un futuro post-apocalíptico. Viajó al pasado para advertir a los Guerreros Z sobre la amenaza de los androides."
+  },
+  {
+    "id": 7,
+    "name": "Frieza",
+    "image": "https://example.com/images/frieza.png",
+    "attributes": {
+      "attack": 96,
+      "defense": 89,
+      "speed": 94,
+      "ki": 97,
+      "stamina": 90,
+      "special": 97
+    },
+    "description": "Un tirano galáctico y emperador del universo, conocido por su crueldad y su inmenso poder. Es el archienemigo de Goku."
+  },
+  {
+    "id": 8,
+    "name": "Cell",
+    "image": "https://example.com/images/cell.png",
+    "attributes": {
+      "attack": 95,
+      "defense": 91,
+      "speed": 91,
+      "ki": 94,
+      "stamina": 92,
+      "special": 94
+    },
+    "description": "Un bio-androide perfecto creado a partir de las células de los guerreros más fuertes. Su objetivo era alcanzar la perfección y aterrorizar al universo."
+  },
+  {
+    "id": 9,
+    "name": "Majin Buu",
+    "image": "https://example.com/images/majin_buu.png",
+    "attributes": {
+      "attack": 99,
+      "defense": 94,
+      "speed": 90,
+      "ki": 98,
+      "stamina": 99,
+      "special": 99
+    },
+    "description": "Una antigua y poderosa entidad mágica con una capacidad de regeneración casi ilimitada y un apetito insaciable por la destrucción y los dulces."
+  },
+  {
+    "id": 10,
+    "name": "Broly",
+    "image": "https://example.com/images/broly.png",
+    "attributes": {
+      "attack": 100,
+      "defense": 95,
+      "speed": 88,
+      "ki": 100,
+      "stamina": 100,
+      "special": 100
+    },
+    "description": "El legendario Super Saiyan, un guerrero de poder abrumador e incontrolable que se desata con una furia berserker."
+  },
+  {
+    "id": 11,
+    "name": "Beerus",
+    "image": "https://example.com/images/beerus.png",
+    "attributes": {
+      "attack": 99,
+      "defense": 98,
+      "speed": 100,
+      "ki": 99,
+      "stamina": 98,
+      "special": 99
+    },
+    "description": "El Dios de la Destrucción del Universo 7. Su poder es tan inmenso que puede destruir planetas con un simple estornudo."
+  },
+  {
+    "id": 12,
+    "name": "Whis",
+    "image": "https://example.com/images/whis.png",
+    "attributes": {
+      "attack": 90,
+      "defense": 99,
+      "speed": 99,
+      "ki": 96,
+      "stamina": 97,
+      "special": 97
+    },
+    "description": "El ángel guía y maestro de artes marciales de Beerus. Es considerablemente más poderoso que el Dios de la Destrucción."
+  },
+  {
+    "id": 13,
+    "name": "Jiren",
+    "image": "https://example.com/images/jiren.png",
+    "attributes": {
+      "attack": 98,
+      "defense": 97,
+      "speed": 95,
+      "ki": 97,
+      "stamina": 95,
+      "special": 95
+    },
+    "description": "El guerrero más poderoso del Universo 11. Su fuerza supera incluso la de un Dios de la Destrucción."
+  },
+  {
+    "id": 14,
+    "name": "Hit",
+    "image": "https://example.com/images/hit.png",
+    "attributes": {
+      "attack": 91,
+      "defense": 86,
+      "speed": 98,
+      "ki": 88,
+      "stamina": 87,
+      "special": 93
+    },
+    "description": "Un legendario asesino del Universo 6 con la habilidad de manipular el tiempo usando su técnica Time-Skip."
+  },
+  {
+    "id": 15,
+    "name": "Fused Zamasu",
+    "image": "https://example.com/images/fused_zamasu.png",
+    "attributes": {
+      "attack": 96,
+      "defense": 96,
+      "speed": 94,
+      "ki": 95,
+      "stamina": 93,
+      "special": 92
+    },
+    "description": "La fusión inmortal de Goku Black y Zamasu del futuro. Un dios desquiciado con un retorcido sentido de la justicia."
+  },
+  {
+    "id": 16,
+    "name": "Goku Black",
+    "image": "https://example.com/images/goku_black.png",
+    "attributes": {
+      "attack": 95,
+      "defense": 87,
+      "speed": 97,
+      "ki": 94,
+      "stamina": 86,
+      "special": 91
+    },
+    "description": "Zamasu en el cuerpo de Goku. Un villano que combina la mente de un Kai con el poder de un Saiyan, capaz de transformarse en Super Saiyan Rosé."
+  },
+  {
+    "id": 17,
+    "name": "Android 17",
+    "image": "https://example.com/images/android_17.png",
+    "attributes": {
+      "attack": 89,
+      "defense": 93,
+      "speed": 89,
+      "ki": 85,
+      "stamina": 98,
+      "special": 89
+    },
+    "description": "Un androide con energía ilimitada. Inicialmente un villano, se convierte en un poderoso aliado y protector de la naturaleza."
+  },
+  {
+    "id": 18,
+    "name": "Android 18",
+    "image": "https://example.com/images/android_18.png",
+    "attributes": {
+      "attack": 87,
+      "defense": 88,
+      "speed": 87,
+      "ki": 84,
+      "stamina": 97,
+      "special": 88
+    },
+    "description": "La hermana gemela del Androide 17. Una luchadora formidable que eventualmente se une a los Guerreros Z y forma una familia con Krillin."
+  },
+  {
+    "id": 19,
+    "name": "Vegito",
+    "image": "https://example.com/images/vegito.png",
+    "attributes": {
+      "attack": 98,
+      "defense": 92,
+      "speed": 98,
+      "ki": 98,
+      "stamina": 85,
+      "special": 96
+    },
+    "description": "La fusión de Goku y Vegeta mediante los Pendientes Pothara. Un guerrero con un poder y una arrogancia extraordinarios."
+  },
+  {
+    "id": 20,
+    "name": "Gogeta",
+    "image": "https://example.com/images/gogeta.png",
+    "attributes": {
+      "attack": 97,
+      "defense": 93,
+      "speed": 99,
+      "ki": 97,
+      "stamina": 84,
+      "special": 95
+    },
+    "description": "La fusión de Goku y Vegeta a través de la Danza de la Fusión. Un guerrero increíblemente poderoso y serio en combate."
+  },
+  {
+    "id": 21,
+    "name": "Bardock",
+    "image": "https://example.com/images/bardock.png",
+    "attributes": {
+      "attack": 86,
+      "defense": 82,
+      "speed": 86,
+      "ki": 83,
+      "stamina": 89,
+      "special": 85
+    },
+    "description": "El padre de Goku, un guerrero Saiyan de clase baja que se rebeló valientemente contra Frieza."
+  },
+  {
+    "id": 22,
+    "name": "Raditz",
+    "image": "https://example.com/images/raditz.png",
+    "attributes": {
+      "attack": 79,
+      "defense": 78,
+      "speed": 81,
+      "ki": 77,
+      "stamina": 80,
+      "special": 78
+    },
+    "description": "El hermano mayor de Goku. Un guerrero Saiyan que vino a la Tierra para reclutar a su hermano, revelando su origen extraterrestre."
+  },
+  {
+    "id": 23,
+    "name": "Nappa",
+    "image": "https://example.com/images/nappa.png",
+    "attributes": {
+      "attack": 82,
+      "defense": 83,
+      "speed": 78,
+      "ki": 80,
+      "stamina": 84,
+      "special": 80
+    },
+    "description": "Un corpulento guerrero Saiyan de élite y compañero de Vegeta, conocido por su brutalidad y poder destructivo."
+  },
+  {
+    "id": 24,
+    "name": "Captain Ginyu",
+    "image": "https://example.com/images/captain_ginyu.png",
+    "attributes": {
+      "attack": 83,
+      "defense": 80,
+      "speed": 83,
+      "ki": 81,
+      "stamina": 79,
+      "special": 87
+    },
+    "description": "El leal y extravagante líder de las Fuerzas Especiales Ginyu. Su técnica especial le permite cambiar de cuerpo con sus oponentes."
+  },
+  {
+    "id": 25,
+    "name": "Recoome",
+    "image": "https://example.com/images/recoome.png",
+    "attributes": {
+      "attack": 81,
+      "defense": 81,
+      "speed": 77,
+      "ki": 79,
+      "stamina": 83,
+      "special": 79
+    },
+    "description": "Un miembro grande y ruidoso de las Fuerzas Ginyu que disfruta posando y usando ataques devastadores."
+  },
+  {
+    "id": 26,
+    "name": "Burter",
+    "image": "https://example.com/images/burter.png",
+    "attributes": {
+      "attack": 78,
+      "defense": 74,
+      "speed": 95,
+      "ki": 76,
+      "stamina": 77,
+      "special": 77
+    },
+    "description": "El autoproclamado 'ser más rápido del universo' y miembro de las Fuerzas Ginyu, conocido como el 'Huracán Azul'."
+  },
+  {
+    "id": 27,
+    "name": "Jeice",
+    "image": "https://example.com/images/jeice.png",
+    "attributes": {
+      "attack": 77,
+      "defense": 75,
+      "speed": 84,
+      "ki": 75,
+      "stamina": 76,
+      "special": 76
+    },
+    "description": "El segundo al mando de las Fuerzas Ginyu, un extravagante luchador apodado el 'Magma Rojo'."
+  },
+  {
+    "id": 28,
+    "name": "Guldo",
+    "image": "https://example.com/images/guldo.png",
+    "attributes": {
+      "attack": 50,
+      "defense": 60,
+      "speed": 40,
+      "ki": 65,
+      "stamina": 55,
+      "special": 86
+    },
+    "description": "El miembro más débil físicamente de las Fuerzas Ginyu, pero con la peligrosa habilidad psíquica de detener el tiempo."
+  },
+  {
+    "id": 29,
+    "name": "Cooler",
+    "image": "https://example.com/images/cooler.png",
+    "attributes": {
+      "attack": 93,
+      "defense": 90,
+      "speed": 91,
+      "ki": 92,
+      "stamina": 89,
+      "special": 89
+    },
+    "description": "El hermano mayor de Frieza. Un guerrero formidable que busca vengar a su familia y demostrar su superioridad."
+  },
+  {
+    "id": 30,
+    "name": "King Cold",
+    "image": "https://example.com/images/king_cold.png",
+    "attributes": {
+      "attack": 89,
+      "defense": 87,
+      "speed": 82,
+      "ki": 87,
+      "stamina": 88,
+      "special": 83
+    },
+    "description": "El padre de Frieza y Cooler, y antiguo líder del Imperio Galáctico. Un ser de inmenso poder y estatus."
+  },
+  {
+    "id": 31,
+    "name": "Dabura",
+    "image": "https://example.com/images/dabura.png",
+    "attributes": {
+      "attack": 88,
+      "defense": 86,
+      "speed": 85,
+      "ki": 86,
+      "stamina": 85,
+      "special": 88
+    },
+    "description": "El Rey del Reino de los Demonios, controlado por Babidi. Su saliva tiene la habilidad de convertir a sus víctimas en piedra."
+  },
+  {
+    "id": 32,
+    "name": "Babidi",
+    "image": "https://example.com/images/babidi.png",
+    "attributes": {
+      "attack": 30,
+      "defense": 40,
+      "speed": 35,
+      "ki": 82,
+      "stamina": 30,
+      "special": 90
+    },
+    "description": "Un malvado mago que busca revivir a Majin Buu para conquistar el universo. Es experto en magia de control mental."
+  },
+  {
+    "id": 33,
+    "name": "Videl",
+    "image": "https://example.com/images/videl.png",
+    "attributes": {
+      "attack": 68,
+      "defense": 65,
+      "speed": 72,
+      "ki": 68,
+      "stamina": 75,
+      "special": 69
+    },
+    "description": "La hija de Mr. Satan y esposa de Gohan. Una humana tenaz que aprende a controlar el ki y se convierte en una luchadora."
+  },
+  {
+    "id": 34,
+    "name": "Goten",
+    "image": "https://example.com/images/goten.png",
+    "attributes": {
+      "attack": 80,
+      "defense": 76,
+      "speed": 85,
+      "ki": 80,
+      "stamina": 78,
+      "special": 82
+    },
+    "description": "El segundo hijo de Goku. Un niño prodigio que alcanzó la transformación de Super Saiyan a una edad muy temprana."
+  },
+  {
+    "id": 35,
+    "name": "Trunks (Kid)",
+    "image": "https://example.com/images/trunks_kid.png",
+    "attributes": {
+      "attack": 81,
+      "defense": 77,
+      "speed": 86,
+      "ki": 81,
+      "stamina": 79,
+      "special": 83
+    },
+    "description": "El hijo de Vegeta y Bulma, y el mejor amigo de Goten. Es arrogante y travieso, pero un luchador talentoso."
+  },
+  {
+    "id": 36,
+    "name": "Gotenks",
+    "image": "https://example.com/images/gotenks.png",
+    "attributes": {
+      "attack": 91,
+      "defense": 83,
+      "speed": 93,
+      "ki": 91,
+      "stamina": 81,
+      "special": 92
+    },
+    "description": "La poderosa y arrogante fusión de Goten y Trunks. Es famoso por sus técnicas llamativas y su actitud infantil."
+  },
+  {
+    "id": 37,
+    "name": "Pan",
+    "image": "https://example.com/images/pan.png",
+    "attributes": {
+      "attack": 70,
+      "defense": 68,
+      "speed": 75,
+      "ki": 72,
+      "stamina": 73,
+      "special": 70
+    },
+    "description": "La hija de Gohan y Videl. Una niña con gran potencial Saiyan que adora a su abuelo Goku."
+  },
+  {
+    "id": 38,
+    "name": "Uub",
+    "image": "https://example.com/images/uub.png",
+    "attributes": {
+      "attack": 85,
+      "defense": 80,
+      "speed": 87,
+      "ki": 86,
+      "stamina": 86,
+      "special": 84
+    },
+    "description": "La reencarnación humana de Kid Buu. Un joven de buen corazón con un poder latente inmenso, entrenado por Goku."
+  },
+  {
+    "id": 39,
+    "name": "Master Roshi",
+    "image": "https://example.com/images/master_roshi.png",
+    "attributes": {
+      "attack": 72,
+      "defense": 71,
+      "speed": 68,
+      "ki": 85,
+      "stamina": 70,
+      "special": 84
+    },
+    "description": "El legendario maestro de artes marciales y creador del Kamehameha. Entrenó a Goku y Krillin."
+  },
+  {
+    "id": 40,
+    "name": "Tien Shinhan",
+    "image": "https://example.com/images/tien_shinhan.png",
+    "attributes": {
+      "attack": 80,
+      "defense": 79,
+      "speed": 79,
+      "ki": 82,
+      "stamina": 81,
+      "special": 85
+    },
+    "description": "Un disciplinado guerrero de tres ojos y antiguo rival de Goku. Su técnica más poderosa es el Tri-Beam (Kikoho)."
+  },
+  {
+    "id": 41,
+    "name": "Chiaotzu",
+    "image": "https://example.com/images/chiaotzu.png",
+    "attributes": {
+      "attack": 55,
+      "defense": 58,
+      "speed": 65,
+      "ki": 70,
+      "stamina": 60,
+      "special": 80
+    },
+    "description": "El inseparable compañero de Ten Shinhan. Es pequeño pero posee habilidades psíquicas únicas."
+  },
+  {
+    "id": 42,
+    "name": "Yamcha",
+    "image": "https://example.com/images/yamcha.png",
+    "attributes": {
+      "attack": 73,
+      "defense": 69,
+      "speed": 76,
+      "ki": 73,
+      "stamina": 74,
+      "special": 74
+    },
+    "description": "Un antiguo bandido del desierto y aliado de Goku. Es conocido por su técnica del Colmillo de Lobo (Roga Fufu Ken)."
+  },
+  {
+    "id": 43,
+    "name": "Yajirobe",
+    "image": "https://example.com/images/yajirobe.png",
+    "attributes": {
+      "attack": 65,
+      "defense": 62,
+      "speed": 50,
+      "ki": 40,
+      "stamina": 68,
+      "special": 50
+    },
+    "description": "Un samurái glotón y cobarde que vive en la Torre de Karin. A pesar de su actitud, ha ayudado a los Guerreros Z en momentos clave."
+  },
+  {
+    "id": 44,
+    "name": "King Piccolo",
+    "image": "https://example.com/images/king_piccolo.png",
+    "attributes": {
+      "attack": 87,
+      "defense": 84,
+      "speed": 80,
+      "ki": 88,
+      "stamina": 87,
+      "special": 86
+    },
+    "description": "La mitad malvada de Kami. Un ser demoníaco que una vez aterrorizó al mundo y fue el primer gran desafío de Goku."
+  },
+  {
+    "id": 45,
+    "name": "Kami",
+    "image": "https://example.com/images/kami.png",
+    "attributes": {
+      "attack": 40,
+      "defense": 72,
+      "speed": 60,
+      "ki": 87,
+      "stamina": 65,
+      "special": 82
+    },
+    "description": "El Guardián de la Tierra y la mitad buena de King Piccolo. Un sabio Namekiano que vigila el mundo desde su atalaya."
+  },
+  {
+    "id": 46,
+    "name": "Dende",
+    "image": "https://example.com/images/dende.png",
+    "attributes": {
+      "attack": 10,
+      "defense": 50,
+      "speed": 45,
+      "ki": 74,
+      "stamina": 40,
+      "special": 75
+    },
+    "description": "Un joven Namekiano con la habilidad de curar. Se convierte en el sucesor de Kami como Guardián de la Tierra."
+  },
+  {
+    "id": 47,
+    "name": "Mr. Satan",
+    "image": "https://example.com/images/mr_satan.png",
+    "attributes": {
+      "attack": 58,
+      "defense": 55,
+      "speed": 52,
+      "ki": 20,
+      "stamina": 62,
+      "special": 45
+    },
+    "description": "El campeón mundial de artes marciales. Un personaje cómico que se lleva el crédito de las hazañas de los Guerreros Z."
+  },
+  {
+    "id": 48,
+    "name": "Supreme Kai (Shin)",
+    "image": "https://example.com/images/supreme_kai.png",
+    "attributes": {
+      "attack": 84,
+      "defense": 82,
+      "speed": 88,
+      "ki": 90,
+      "stamina": 80,
+      "special": 87
+    },
+    "description": "La deidad que supervisa todo el Universo 7. A pesar de su estatus, su poder es superado por los Saiyans más fuertes."
+  },
+  {
+    "id": 49,
+    "name": "Kibito Kai",
+    "image": "https://example.com/images/kibito_kai.png",
+    "attributes": {
+      "attack": 85,
+      "defense": 83,
+      "speed": 89,
+      "ki": 91,
+      "stamina": 82,
+      "special": 88
+    },
+    "description": "La fusión del Supremo Kai y su asistente Kibito mediante los Pendientes Pothara."
+  },
+  {
+    "id": 50,
+    "name": "Old Kai",
+    "image": "https://example.com/images/old_kai.png",
+    "attributes": {
+      "attack": 20,
+      "defense": 30,
+      "speed": 25,
+      "ki": 92,
+      "stamina": 20,
+      "special": 94
+    },
+    "description": "Un antiguo Supremo Kai liberado de la Espada Z. Posee la habilidad de desbloquear el potencial oculto de un guerrero."
+  },
+  {
+    "id": 51,
+    "name": "Janemba",
+    "image": "https://example.com/images/janemba.png",
+    "attributes": {
+      "attack": 96,
+      "defense": 91,
+      "speed": 96,
+      "ki": 95,
+      "stamina": 91,
+      "special": 93
+    },
+    "description": "Una manifestación del mal puro con la capacidad de deformar la realidad. Fue necesaria la fusión de Gogeta para derrotarlo."
+  },
+  {
+    "id": 52,
+    "name": "Tapion",
+    "image": "https://example.com/images/tapion.png",
+    "attributes": {
+      "attack": 76,
+      "defense": 73,
+      "speed": 74,
+      "ki": 71,
+      "stamina": 72,
+      "special": 81
+    },
+    "description": "Un héroe legendario del planeta Konats que lleva sellada en su interior a la mitad del monstruo Hirudegarn."
+  },
+  {
+    "id": 53,
+    "name": "Pikkon",
+    "image": "https://example.com/images/pikkon.png",
+    "attributes": {
+      "attack": 90,
+      "defense": 85,
+      "speed": 90,
+      "ki": 89,
+      "stamina": 87,
+      "special": 89
+    },
+    "description": "Un poderoso guerrero del Otro Mundo y el luchador más fuerte del West Kai. Un digno rival para Goku en el torneo del más allá."
+  },
+  {
+    "id": 54,
+    "name": "Cabba",
+    "image": "https://example.com/images/cabba.png",
+    "attributes": {
+      "attack": 86,
+      "defense": 81,
+      "speed": 88,
+      "ki": 84,
+      "stamina": 83,
+      "special": 84
+    },
+    "description": "Un joven y talentoso Saiyan del Universo 6, miembro de la Fuerza de Defensa de Sadala. Aprende a ser Super Saiyan gracias a Vegeta."
+  },
+  {
+    "id": 55,
+    "name": "Kale",
+    "image": "https://example.com/images/kale.png",
+    "attributes": {
+      "attack": 93,
+      "defense": 89,
+      "speed": 84,
+      "ki": 93,
+      "stamina": 94,
+      "special": 90
+    },
+    "description": "Una Saiyan tímida y retraída del Universo 6 que se transforma en una guerrera berserker parecida al legendario Super Saiyan."
+  },
+  {
+    "id": 56,
+    "name": "Caulifla",
+    "image": "https://example.com/images/caulifla.png",
+    "attributes": {
+      "attack": 89,
+      "defense": 84,
+      "speed": 92,
+      "ki": 88,
+      "stamina": 86,
+      "special": 89
+    },
+    "description": "Una Saiyan del Universo 6 con una actitud punk y un talento innato para el combate, líder de una banda de delincuentes."
+  }
+]

@@ -7,7 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name = "History")
+@Entity(name = "sessions_played")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

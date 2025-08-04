@@ -1,3 +1,4 @@
+import type { CardType } from "./card.type";
 import type { GameSessionType } from "./gameSession.type";
 import type { PlayerScoreType, PlayerType } from "./players.type";
 
@@ -14,7 +15,8 @@ export interface RequestSessionsPlayedType {
 }
 
 export interface SessionsPlayedContextType {
-    playerScores: PlayerScoreType[];
-    addPlayerScore: (player: PlayerType) => void;
-    addSessionsPlayed: (sessionsPlayed: RequestSessionsPlayedType) => void;
+  playerScores: PlayerScoreType[];
+  addPlayerScore: (player: PlayerType) => void;
+  assignPlayerScore: (player: PlayerType, index: number) => void;
+  assigCardsToEachPlayer: (cards: CardType[]) => void;
 }
