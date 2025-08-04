@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Goku",
-    "image": "https://example.com/images/goku.png",
+    "image": "https://i.pinimg.com/736x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg",
     "attributes": {
       "attack": 98,
       "defense": 90,
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Vegeta",
-    "image": "https://example.com/images/vegeta.png",
+    "image": "https://i.pinimg.com/736x/39/09/93/3909931c4743b9004777823e447540df.jpg",
     "attributes": {
       "attack": 97,
       "defense": 88,
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "name": "Gohan",
-    "image": "https://example.com/images/gohan.png",
+    "image": "https://preview.redd.it/ultra-beast-gohan-concept-v0-qpgndxl9zpjd1.jpeg?auto=webp&s=ca6ad1d048210807942be190f1673277581fc8c0",
     "attributes": {
       "attack": 94,
       "defense": 85,
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "name": "Piccolo",
-    "image": "https://example.com/images/piccolo.png",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/255bfd91-5558-4ce4-804a-cbc56a262e9a/dfq22z3-0969d07b-b52d-4449-a571-e36462899716.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1NWJmZDkxLTU1NTgtNGNlNC04MDRhLWNiYzU2YTI2MmU5YVwvZGZxMjJ6My0wOTY5ZDA3Yi1iNTJkLTQ0NDktYTU3MS1lMzY0NjI4OTk3MTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DnauYwg5tR313zmD9kykYrrmoTW0dpcoq4kC105A-ps",
     "attributes": {
       "attack": 88,
       "defense": 92,
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "name": "Krillin",
-    "image": "https://example.com/images/krillin.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/d/d4/DBL-EVT-48S.png/revision/latest/scale-to-width-down/282?cb=20220702143903",
     "attributes": {
       "attack": 75,
       "defense": 70,
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "name": "Future Trunks",
-    "image": "https://example.com/images/future_trunks.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/0/0e/DBL41-02S.png/revision/latest?cb=20211124070656",
     "attributes": {
       "attack": 92,
       "defense": 84,
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "name": "Frieza",
-    "image": "https://example.com/images/frieza.png",
+    "image": "https://i.redd.it/aaz1isp9r9ob1.jpg",
     "attributes": {
       "attack": 96,
       "defense": 89,
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "name": "Cell",
-    "image": "https://example.com/images/cell.png",
+    "image": "https://i.ytimg.com/vi/Rcx6s2iV5P4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMi-IgSkHNc1V8_NfNn8v_NKWllw",
     "attributes": {
       "attack": 95,
       "defense": 91,
@@ -114,7 +114,7 @@
   {
     "id": 9,
     "name": "Majin Buu",
-    "image": "https://example.com/images/majin_buu.png",
+    "image": "https://i.pinimg.com/736x/00/82/d4/0082d4a946aabdacecebb4f1048402db.jpg",
     "attributes": {
       "attack": 99,
       "defense": 94,
@@ -128,7 +128,7 @@
   {
     "id": 10,
     "name": "Broly",
-    "image": "https://example.com/images/broly.png",
+    "image": "https://i.pinimg.com/1200x/c7/05/25/c705256eca0f4a42d009cb16fa4621fc.jpg",
     "attributes": {
       "attack": 100,
       "defense": 95,
@@ -142,7 +142,7 @@
   {
     "id": 11,
     "name": "Beerus",
-    "image": "https://example.com/images/beerus.png",
+    "image": "https://preview.redd.it/which-beerus-is-better-v0-xx22czszug4b1.jpg?width=1080&crop=smart&auto=webp&s=fd3d9109bac10f2b54c1576f29632367732c3eb6",
     "attributes": {
       "attack": 99,
       "defense": 98,
@@ -156,7 +156,7 @@
   {
     "id": 12,
     "name": "Whis",
-    "image": "https://example.com/images/whis.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/1/1d/DBL-EVT-82S.png/revision/latest?cb=20240501150402",
     "attributes": {
       "attack": 90,
       "defense": 99,
@@ -170,7 +170,7 @@
   {
     "id": 13,
     "name": "Jiren",
-    "image": "https://example.com/images/jiren.png",
+    "image": "https://es.dragon-ball-official.com/dragonball/jp/news/2022/02/JirenFP_462_SP.jpg?_=1753505100",
     "attributes": {
       "attack": 98,
       "defense": 97,
@@ -184,7 +184,7 @@
   {
     "id": 14,
     "name": "Hit",
-    "image": "https://example.com/images/hit.png",
+    "image": "https://e0.pxfuel.com/wallpapers/675/459/desktop-wallpaper-patricio-wong-on-db-legends-dragon-ball-super-anime-dragon-ball-super-dragon-ball-hit-dbz-thumbnail.jpg",
     "attributes": {
       "attack": 91,
       "defense": 86,
@@ -198,7 +198,7 @@
   {
     "id": 15,
     "name": "Fused Zamasu",
-    "image": "https://example.com/images/fused_zamasu.png",
+    "image": "https://i.ytimg.com/vi/r0mkm-9h2z4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC251DwjwpezBdTyqteNdykmK1tmA",
     "attributes": {
       "attack": 96,
       "defense": 96,
@@ -212,7 +212,7 @@
   {
     "id": 16,
     "name": "Goku Black",
-    "image": "https://example.com/images/goku_black.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/7/7c/DBL-EVT-39S.png/revision/latest?cb=20211110095204",
     "attributes": {
       "attack": 95,
       "defense": 87,
@@ -226,7 +226,7 @@
   {
     "id": 17,
     "name": "Android 17",
-    "image": "https://example.com/images/android_17.png",
+    "image": "https://preview.redd.it/lf-android-17-full-art-v0-3kw6en3tjqca1.jpg?width=1080&crop=smart&auto=webp&s=3ac75dff1714a5aad70559d6770a19cf7454f26f",
     "attributes": {
       "attack": 89,
       "defense": 93,
@@ -240,7 +240,7 @@
   {
     "id": 18,
     "name": "Android 18",
-    "image": "https://example.com/images/android_18.png",
+    "image": "https://i.ytimg.com/vi/j-cNju_7TfM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7_vEhSKr5F1vnF3URjd2pQFUuQQ",
     "attributes": {
       "attack": 87,
       "defense": 88,
@@ -254,7 +254,7 @@
   {
     "id": 19,
     "name": "Vegito",
-    "image": "https://example.com/images/vegito.png",
+    "image": "https://i.pinimg.com/736x/7e/73/de/7e73de6e1cb4e9c3aa151d9fec4043c1.jpg",
     "attributes": {
       "attack": 98,
       "defense": 92,
@@ -268,7 +268,7 @@
   {
     "id": 20,
     "name": "Gogeta",
-    "image": "https://example.com/images/gogeta.png",
+    "image": "https://i.pinimg.com/736x/16/b4/71/16b471ed54d5275127acbace3c40620e.jpg",
     "attributes": {
       "attack": 97,
       "defense": 93,
@@ -282,7 +282,7 @@
   {
     "id": 21,
     "name": "Bardock",
-    "image": "https://example.com/images/bardock.png",
+    "image": "https://i.pinimg.com/originals/a4/58/88/a45888e9860538098b77405bee06f49a.jpg",
     "attributes": {
       "attack": 86,
       "defense": 82,
@@ -296,7 +296,7 @@
   {
     "id": 22,
     "name": "Raditz",
-    "image": "https://example.com/images/raditz.png",
+    "image": "https://i.pinimg.com/736x/bf/55/58/bf5558f912283cacd8a0b0dcee6b153e.jpg",
     "attributes": {
       "attack": 79,
       "defense": 78,
@@ -310,7 +310,7 @@
   {
     "id": 23,
     "name": "Nappa",
-    "image": "https://example.com/images/nappa.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/1/1d/DBL01-19E%28Zenkai%29.png/revision/latest?cb=20210524105137",
     "attributes": {
       "attack": 82,
       "defense": 83,
@@ -324,7 +324,7 @@
   {
     "id": 24,
     "name": "Captain Ginyu",
-    "image": "https://example.com/images/captain_ginyu.png",
+    "image": "https://es.dragon-ball-official.com/dragonball/jp/news/2021/07/n210713001-3.jpg?_=1752649980",
     "attributes": {
       "attack": 83,
       "defense": 80,
@@ -338,7 +338,7 @@
   {
     "id": 25,
     "name": "Recoome",
-    "image": "https://example.com/images/recoome.png",
+    "image": "https://preview.redd.it/b7kjweit01c41.jpg?width=640&crop=smart&auto=webp&s=88d840222e175c2b794c6b4598c95b27e95b020f",
     "attributes": {
       "attack": 81,
       "defense": 81,
@@ -352,7 +352,7 @@
   {
     "id": 26,
     "name": "Burter",
-    "image": "https://example.com/images/burter.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/3/30/DBL14-07E.png/revision/latest?cb=20210410031926",
     "attributes": {
       "attack": 78,
       "defense": 74,
@@ -366,7 +366,7 @@
   {
     "id": 27,
     "name": "Jeice",
-    "image": "https://example.com/images/jeice.png",
+    "image": "https://static.wikia.nocookie.net/dragonballlegends_gamepedia_en/images/5/55/Jeice_HE_Purple.png/revision/latest/scale-to-width-down/340?cb=20200302220306",
     "attributes": {
       "attack": 77,
       "defense": 75,
@@ -380,7 +380,7 @@
   {
     "id": 28,
     "name": "Guldo",
-    "image": "https://example.com/images/guldo.png",
+    "image": "https://static.wikia.nocookie.net/dragonballlegends_gamepedia_en/images/7/71/Guldo_HE_Blue.png/revision/latest/scale-to-width-down/340?cb=20200302214432",
     "attributes": {
       "attack": 50,
       "defense": 60,
@@ -394,7 +394,7 @@
   {
     "id": 29,
     "name": "Cooler",
-    "image": "https://example.com/images/cooler.png",
+    "image": "https://en.dragon-ball-official.com/dragonball/jp/news/2022/09/Cooler2nd_494_SP.jpg?_=1753327860",
     "attributes": {
       "attack": 93,
       "defense": 90,
@@ -408,7 +408,7 @@
   {
     "id": 30,
     "name": "King Cold",
-    "image": "https://example.com/images/king_cold.png",
+    "image": "https://preview.redd.it/0yybj5at1j051.jpg?width=640&crop=smart&auto=webp&s=c52bec0d908b5392b63bd8d6a34e82d93f42a57a",
     "attributes": {
       "attack": 89,
       "defense": 87,
@@ -422,7 +422,7 @@
   {
     "id": 31,
     "name": "Dabura",
-    "image": "https://example.com/images/dabura.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/2/2a/DBL26-04E.png/revision/latest?cb=20210407071448",
     "attributes": {
       "attack": 88,
       "defense": 86,
@@ -436,7 +436,7 @@
   {
     "id": 32,
     "name": "Babidi",
-    "image": "https://example.com/images/babidi.png",
+    "image": "https://preview.redd.it/some-edits-i-made-for-this-years-f2p-lr-v0-lcftyy9ae4ha1.png?width=570&format=png&auto=webp&s=3d1e5e9afe3ee4b4df43a22fb7a58b7bbe4862b3",
     "attributes": {
       "attack": 30,
       "defense": 40,
@@ -450,7 +450,7 @@
   {
     "id": 33,
     "name": "Videl",
-    "image": "https://example.com/images/videl.png",
+    "image": "https://i.ytimg.com/vi/MVwg0Ty-dY8/sddefault.jpg?v=66bd2b16",
     "attributes": {
       "attack": 68,
       "defense": 65,
@@ -464,7 +464,7 @@
   {
     "id": 34,
     "name": "Goten",
-    "image": "https://example.com/images/goten.png",
+    "image": "https://i.pinimg.com/736x/db/a6/15/dba6153ce6806fae65bcec8d3b98f0fc.jpg",
     "attributes": {
       "attack": 80,
       "defense": 76,
@@ -478,7 +478,7 @@
   {
     "id": 35,
     "name": "Trunks (Kid)",
-    "image": "https://example.com/images/trunks_kid.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/4/47/DBL05-03S.png/revision/latest?cb=20210320015821",
     "attributes": {
       "attack": 81,
       "defense": 77,
@@ -492,7 +492,7 @@
   {
     "id": 36,
     "name": "Gotenks",
-    "image": "https://example.com/images/gotenks.png",
+    "image": "https://i.pinimg.com/736x/42/46/f4/4246f4b11ee6feb5cf97989407a0147a.jpg",
     "attributes": {
       "attack": 91,
       "defense": 83,
@@ -506,7 +506,7 @@
   {
     "id": 37,
     "name": "Pan",
-    "image": "https://example.com/images/pan.png",
+    "image": "https://static.wikia.nocookie.net/dragonballlegends_gamepedia_en/images/1/1b/Pan_HE_Green.png/revision/latest?cb=20200307020925",
     "attributes": {
       "attack": 70,
       "defense": 68,
@@ -520,7 +520,7 @@
   {
     "id": 38,
     "name": "Uub",
-    "image": "https://example.com/images/uub.png",
+    "image": "https://w0.peakpx.com/wallpaper/844/407/HD-wallpaper-majuub-ball-legends-uub-dragon-gt.jpg",
     "attributes": {
       "attack": 85,
       "defense": 80,
@@ -534,7 +534,7 @@
   {
     "id": 39,
     "name": "Master Roshi",
-    "image": "https://example.com/images/master_roshi.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/1/17/DBL04-13E.png/revision/latest/scale-to-width-down/282?cb=20240430150659",
     "attributes": {
       "attack": 72,
       "defense": 71,
@@ -548,7 +548,7 @@
   {
     "id": 40,
     "name": "Tien Shinhan",
-    "image": "https://example.com/images/tien_shinhan.png",
+    "image": "https://es.dragon-ball-official.com/dragonball/jp/news/2022/08/TienShinhan_489_SP.jpg?_=1753660500",
     "attributes": {
       "attack": 80,
       "defense": 79,
@@ -562,7 +562,7 @@
   {
     "id": 41,
     "name": "Chiaotzu",
-    "image": "https://example.com/images/chiaotzu.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/5/5c/ChiaotzuHE.png/revision/latest?cb=20180614193027",
     "attributes": {
       "attack": 55,
       "defense": 58,
@@ -576,7 +576,7 @@
   {
     "id": 42,
     "name": "Yamcha",
-    "image": "https://example.com/images/yamcha.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/a/a3/DBL02-04H.png/revision/latest?cb=20210412075331",
     "attributes": {
       "attack": 73,
       "defense": 69,
@@ -590,7 +590,7 @@
   {
     "id": 43,
     "name": "Yajirobe",
-    "image": "https://example.com/images/yajirobe.png",
+    "image": "https://i.ytimg.com/vi/sq61TQVMI4M/maxresdefault.jpg",
     "attributes": {
       "attack": 65,
       "defense": 62,
@@ -604,7 +604,7 @@
   {
     "id": 44,
     "name": "King Piccolo",
-    "image": "https://example.com/images/king_piccolo.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/1/1b/DBL05-08S.png/revision/latest?cb=20210315211228",
     "attributes": {
       "attack": 87,
       "defense": 84,
@@ -618,7 +618,7 @@
   {
     "id": 45,
     "name": "Kami",
-    "image": "https://example.com/images/kami.png",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/e/e0/Dokkan_Battle_Heavenly_Deity_Kami_card.png/revision/latest/scale-to-width-down/732?cb=20200110172319",
     "attributes": {
       "attack": 40,
       "defense": 72,
@@ -632,7 +632,7 @@
   {
     "id": 46,
     "name": "Dende",
-    "image": "https://example.com/images/dende.png",
+    "image": "https://i.quotev.com/whyqp7c7bpfq.jpg",
     "attributes": {
       "attack": 10,
       "defense": 50,
@@ -646,7 +646,7 @@
   {
     "id": 47,
     "name": "Mr. Satan",
-    "image": "https://example.com/images/mr_satan.png",
+    "image": "https://i.redd.it/o6vpq58bgvua1.jpg",
     "attributes": {
       "attack": 58,
       "defense": 55,
@@ -660,7 +660,7 @@
   {
     "id": 48,
     "name": "Supreme Kai (Shin)",
-    "image": "https://example.com/images/supreme_kai.png",
+    "image": "https://i.ytimg.com/vi/uUTu698GDHQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGs8AY0iSicGe8SG1A4OueEkTETA",
     "attributes": {
       "attack": 84,
       "defense": 82,
@@ -674,7 +674,7 @@
   {
     "id": 49,
     "name": "Kibito Kai",
-    "image": "https://example.com/images/kibito_kai.png",
+    "image": "https://static.wikia.nocookie.net/dragonball/images/a/ac/Dokkan_Battle_Unforeseen_Fusion_Kibito_Kai_card_%28Potara_Fusion_Kibito_Kai_SR-SSR%29.jpg/revision/latest?cb=20200215092015",
     "attributes": {
       "attack": 85,
       "defense": 83,
@@ -702,7 +702,7 @@
   {
     "id": 51,
     "name": "Janemba",
-    "image": "https://example.com/images/janemba.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/6/69/DBL13-08E.png/revision/latest?cb=20210409010717",
     "attributes": {
       "attack": 96,
       "defense": 91,
@@ -716,7 +716,7 @@
   {
     "id": 52,
     "name": "Tapion",
-    "image": "https://example.com/images/tapion.png",
+    "image": "https://i.pinimg.com/736x/fa/9f/6e/fa9f6e858b513f48a8511d02c07f1885.jpg",
     "attributes": {
       "attack": 76,
       "defense": 73,
@@ -730,7 +730,7 @@
   {
     "id": 53,
     "name": "Pikkon",
-    "image": "https://example.com/images/pikkon.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/b/b5/DBL24-15S.png/revision/latest?cb=20210217033653",
     "attributes": {
       "attack": 90,
       "defense": 85,
@@ -744,7 +744,7 @@
   {
     "id": 54,
     "name": "Cabba",
-    "image": "https://example.com/images/cabba.png",
+    "image": "https://i.ytimg.com/vi/ceMA0U3na_k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD5YWWq-2IyJR1vljli4LdBpqSngw",
     "attributes": {
       "attack": 86,
       "defense": 81,
@@ -758,7 +758,7 @@
   {
     "id": 55,
     "name": "Kale",
-    "image": "https://example.com/images/kale.png",
+    "image": "https://pbs.twimg.com/amplify_video_thumb/1493406332430741504/img/ekd0MH6HFqxXExcd.jpg:large",
     "attributes": {
       "attack": 93,
       "defense": 89,
@@ -772,7 +772,7 @@
   {
     "id": 56,
     "name": "Caulifla",
-    "image": "https://example.com/images/caulifla.png",
+    "image": "https://static.wikia.nocookie.net/dragon-ball-legends/images/1/13/DBL09-03S.png/revision/latest?cb=20210415080707",
     "attributes": {
       "attack": 89,
       "defense": 84,
