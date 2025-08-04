@@ -1,6 +1,6 @@
 "use client";
 
-import type { CardType } from "@/types/card.type";
+import {Attributes, AttributesType, CardType} from "@/types/card.type";
 import {
   Zap,
   Shield,
@@ -10,67 +10,7 @@ import {
   Flame,
   type LucideProps,
 } from "lucide-react";
-import type React from "react";
-
-
-const cards: CardType[] = [
-  {
-    id: 1,
-    name: "Goku Super Saiyan",
-    image: "/placeholder.svg?height=200&width=150",
-    attributes: {
-      attack: 95,
-      defense: 80,
-      speed: 90,
-      ki: 100,
-      stamina: 85,
-      special: 98,
-    },
-    description: "El legendario guerrero Saiyan que protege la Tierra",
-  },
-  {
-    id: 2,
-    name: "Vegeta Príncipe",
-    image: "/placeholder.svg?height=200&width=150",
-    attributes: {
-      attack: 92,
-      defense: 85,
-      speed: 88,
-      ki: 95,
-      stamina: 90,
-      special: 94,
-    },
-    description: "El orgulloso príncipe de los Saiyans",
-  },
-  {
-    id: 3,
-    name: "Piccolo",
-    image: "/placeholder.svg?height=200&width=150",
-    attributes: {
-      attack: 75,
-      defense: 90,
-      speed: 70,
-      ki: 85,
-      stamina: 95,
-      special: 80,
-    },
-    description: "El guerrero Namekiano y mentor de Gohan",
-  },
-  {
-    id: 4,
-    name: "Frieza Forma Final",
-    image: "/placeholder.svg?height=200&width=150",
-    attributes: {
-      attack: 88,
-      defense: 70,
-      speed: 95,
-      ki: 92,
-      stamina: 75,
-      special: 90,
-    },
-    description: "El emperador del universo en su forma más poderosa",
-  },
-];
+import React, {useCallback, useState} from "react";
 
 const AttributeBar = ({
   icon: Icon,
@@ -106,12 +46,26 @@ const AttributeBar = ({
   );
 };
 
-export default function Card ({ card, className, ...props }: { card: CardType, className?: string, onClick?: () => void }) {
+export default function Card({card, className, attributeSelected, handleSelectCard}: {
+    card: CardType,
+    className?: string,
+    onClick?: (e: React.ChangeEvent<HTMLDivElement>) => void,
+    attributeSelected?: Attributes | null,
+    handleSelectCard?: (attributeSelectedValue: number, cardId: number) => void
+}) {
+  
+  const [attributeSelectedValue, setAttributeSelectedValue] = useState<number>(attributeSelected ? card.attributes[attributeSelected as keyof AttributesType] : -1);
+
+  const handleClick = useCallback(()=>{
+    if (!handleSelectCard)return
+      handleSelectCard(attributeSelectedValue, card.id)
+  }, [handleSelectCard])
+
   return (
     <div
       key={card.id}
-      className={`relative aspect-[5/8] w-76 overflow-hidden bg-zinc-950 border-4 border-amber-600 rounded-2xl shadow-2xl transition-transform duration-300 ${className}`}
-      {...props}
+      className={`relative aspect-[6/10] w-76 overflow-hidden bg-zinc-950 border-4 border-amber-600 rounded-2xl shadow-2xl transition-transform duration-300 ${className}`}
+      onClick={handleClick}
     >
       <div className="p-0 relative">
         {/* Header */}
@@ -124,11 +78,11 @@ export default function Card ({ card, className, ...props }: { card: CardType, c
         </div>
 
         {/* Character Image */}
-        <div className="relative h-48 bg-zinc-500 overflow-hidden">
+        <div className="relative h-56 bg-zinc-500 overflow-hidden">
           <img
-            src={card.image || "/placeholder.svg"}
+            src={`${card.image}` || "/placeholder.svg"}
             alt={card.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-[0%_20%]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>
@@ -136,7 +90,7 @@ export default function Card ({ card, className, ...props }: { card: CardType, c
         {/* Attributes */}
         <div className="p-3">
           <h4 className="text-xs font-bold text-yellow-400 mb-2 text-center">
-            ATRIBUTOS
+            ATTRIBUTOS
           </h4>
           <div className="space-y-1">
             <AttributeBar

@@ -1,5 +1,7 @@
+"use client"
+
 import type { PlayerType } from "@/types/players.type";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useState, ChangeEvent } from "react";
 import useCard from "./useCard";
 import useGameSession from "./useGameSession";
@@ -20,7 +22,7 @@ export default function useWItingRoom() {
     useSessionsPlayed();
   const { playerList, addPlayer } = usePlayer();
   const { getGameSession } = useGameSession();
-  const { getCards } = useCard();
+  const { getCardList } = useCard();
   const router = useRouter();
 
   const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
@@ -82,9 +84,7 @@ export default function useWItingRoom() {
   };
 
   const handlePlaySession = () => {
-    getGameSession();
-    getCards();
-
+    getCardList()
     router.push("../game/game-room");
   };
 

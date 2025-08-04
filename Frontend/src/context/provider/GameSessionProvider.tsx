@@ -9,14 +9,14 @@ export default function GameSessionProvider({children}: {children: React.ReactNo
   const apiUrl = "http://localhost:8085/api/v1";
 
     const getGameSession = useCallback(async () => {
-        try {
-            const res = await fetch(`${apiUrl}/gameSession/new`);
-            if (!res.ok) throw new Error("Failed to create game session.");
-            const newGameSession: GameSessionType = await res.json();
-            setGameSession(newGameSession);
-        } catch (error) {
-            console.error(error);
-        }
+        // try {
+        //     const res = await fetch(`${apiUrl}/gameSession/new`);
+        //     if (!res.ok) throw new Error("Failed to create game session.");
+        //     const newGameSession: GameSessionType = await res.json();
+        //     setGameSession(newGameSession);
+        // } catch (error) {
+        //     console.error(error);
+        // }
     }, [apiUrl]);
 
     return (

@@ -18,5 +18,6 @@ export interface SessionsPlayedContextType {
   playerScores: PlayerScoreType[];
   addPlayerScore: (player: PlayerType) => void;
   assignPlayerScore: (player: PlayerType, index: number) => void;
-  assigCardsToEachPlayer: (cards: CardType[]) => void;
+  assigCardsToEachPlayer: (cards: CardType[][]) => void;
+  sumPointToScore: (indexPlayer: number) => void;
 }

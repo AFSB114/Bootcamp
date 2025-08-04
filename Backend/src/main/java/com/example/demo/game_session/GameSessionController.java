@@ -18,4 +18,6 @@ public class GameSessionController {
     public ResponseEntity<?> getAllGameSession() {
         return ResponseEntity.ok(gameSessionService.findAll());
     }
+
+
 }

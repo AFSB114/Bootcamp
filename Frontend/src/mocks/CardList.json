@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Goku",
-    "image": "/assets/card-images/Goku.jpg",
+    "image": "public/card-images/Goku.jpg",
     "attributes": {
       "attack": 98,
       "defense": 90,
