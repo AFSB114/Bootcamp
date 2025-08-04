@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Goku",
-    "image": "https://i.pinimg.com/736x/57/00/c1/5700c1a0be5a49ffd1a0b9a8b243a953.jpg",
+    "image": "/assets/card-images/Goku.jpg",
     "attributes": {
       "attack": 98,
       "defense": 90,
@@ -688,7 +688,7 @@
   {
     "id": 50,
     "name": "Old Kai",
-    "image": "https://example.com/images/old_kai.png",
+    "image": "",
     "attributes": {
       "attack": 20,
       "defense": 30,
