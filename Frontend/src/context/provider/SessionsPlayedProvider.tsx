@@ -1,3 +1,5 @@
+"use client"
+
 import type { PlayerScoreType, PlayerType } from "@/types/players.type";
 import type { RequestSessionsPlayedType } from "@/types/sessionsPlayed.type";
 import SessionsPlayedContext from "@/context/SessionsPlayedContext";
