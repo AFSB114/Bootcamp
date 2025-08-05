@@ -19,7 +19,6 @@ export interface CardContextType {
   cardList: CardType[][];
   deleteCard: (cardId: number) => void;
   getCards: () => void;
-  getCardList: () => void;
 }
 
 export enum Attributes {

@@ -3,7 +3,6 @@
 import type { PlayerScoreType, PlayerType } from "@/types/players.type";
 import SessionsPlayedContext from "@/context/SessionsPlayedContext";
 import { useEffect, useState } from "react";
-import type { CardType } from "@/types/card.type";
 
 export default function SessionsPlayedProvider({
   children,

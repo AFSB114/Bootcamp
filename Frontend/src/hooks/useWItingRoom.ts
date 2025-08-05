@@ -22,7 +22,6 @@ export default function useWItingRoom() {
     useSessionsPlayed();
   const { playerList, addPlayer } = usePlayer();
   const { getGameSession } = useGameSession();
-  const { getCardList } = useCard();
   const router = useRouter();
 
   const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
@@ -84,9 +83,8 @@ export default function useWItingRoom() {
   };
 
   const handlePlaySession = () => {
-    getCardList()
     router.push("../game/game-room");
-  };
+  };1
 
   return {
     numPlayers,
