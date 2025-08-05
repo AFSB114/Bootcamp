@@ -1,6 +1,6 @@
 "use client";
 
-import {Attributes, AttributesType, CardType} from "@/types/card.type";
+import {Attributes, CardType} from "@/types/card.type";
 import {
   Zap,
   Shield,
@@ -10,7 +10,8 @@ import {
   Flame,
   type LucideProps,
 } from "lucide-react";
-import React, {useCallback, useState} from "react";
+import Image from "next/image";
+import React, { useCallback, useEffect, useState} from "react";
 
 const AttributeBar = ({
   icon: Icon,
@@ -54,12 +55,16 @@ export default function Card({card, className, attributeSelected, handleSelectCa
     handleSelectCard?: (attributeSelectedValue: number, cardId: number) => void
 }) {
   
-  const [attributeSelectedValue, setAttributeSelectedValue] = useState<number>(attributeSelected ? card.attributes[attributeSelected as keyof AttributesType] : -1);
+  const [attributeSelectedValue, setAttributeSelectedValue] = useState<number>(0);
+
+  useEffect(() => {
+    setAttributeSelectedValue(attributeSelected ? card.attributes[attributeSelected] : -1);
+  },[setAttributeSelectedValue, attributeSelected, card.attributes])
 
   const handleClick = useCallback(()=>{
     if (!handleSelectCard)return
       handleSelectCard(attributeSelectedValue, card.id)
-  }, [handleSelectCard])
+  }, [handleSelectCard, card.id, attributeSelectedValue]);
 
   return (
     <div
@@ -79,10 +84,11 @@ export default function Card({card, className, attributeSelected, handleSelectCa
 
         {/* Character Image */}
         <div className="relative h-56 bg-zinc-500 overflow-hidden">
-          <img
+          <Image
             src={`${card.image}` || "/placeholder.svg"}
             alt={card.name}
-            className="w-full h-full object-cover object-[0%_20%]"
+            className="w-full h-full object-cover object-top"
+            layout="fill"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         </div>

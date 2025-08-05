@@ -1,11 +1,10 @@
 // components/Modal.tsx
 "use client";
 
-import { useEffect, useState, MouseEvent } from "react";
-import { ModalProps } from "@/types/modal.type";
+import { useEffect, useState, MouseEvent, type ReactNode } from "react";
 
 
-export default function Modal({ isOpen, onClose, children }: ModalProps) {
+export default function Modal({ isOpen, onClose, children, backdrop = true }: { isOpen: boolean, onClose: () => void, children: ReactNode, backdrop?: boolean }) {
   const [isRendering, setIsRendering] = useState(false);
 
   useEffect(() => {
@@ -22,7 +21,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
   }
 
   const handleBackdropClick = (e: MouseEvent<HTMLDivElement>) => {
-    if (e.target === e.currentTarget) {
+    if (e.target === e.currentTarget && backdrop) {
       onClose();
     }
   };
