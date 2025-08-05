@@ -19,6 +19,7 @@ export default function useGameRoom() {
   const [winnerRound, setWinnerRound] = useState<string>("");
   const [showRankingModal, setShowRankingModal] = useState(false);
   const [hiddenCards, setHiddenCards] = useState<boolean>(false);
+  const [finishedTie, setFinishedTie] = useState(false);
 
   const handleSelectCard = (attributeSelectedValue: number, cardId: number) => {
     setPlayedCards((currentPlayedCards) => [
@@ -71,10 +72,7 @@ export default function useGameRoom() {
       );
 
       if (winners.length > 1) {
-        alert(
-          `Hay un empate entre ${winners[0].playerId.username} y ${winners[1].playerId.username}`
-        );
-        return;
+        setFinishedTie(true)
       }
       setShowRankingModal(true);
     }
@@ -122,6 +120,7 @@ export default function useGameRoom() {
     winnerRound,
     showRankingModal,
     hiddenCards,
+    finishedTie,
     handleSelectCard,
     handleChangeAttribute,
     handleCloseshowAttributeModal,
