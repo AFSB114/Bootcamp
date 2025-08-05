@@ -8,7 +8,7 @@ import CardList from "@/mocks/CardList.json";
 export default function useGameRoom() {
   const { playerScores, sumPointToScore } = useSessionsPlayed();
   const [round, setRound] = useState<number>(1);
-  const [turn, setTurn] = useState<number>(0);
+  const [turn, setTurn] = useState<number>(-1);
   const [attributeActive, setAttributeActive] = useState<Attributes>(
     Attributes.attack
   );
@@ -49,13 +49,12 @@ export default function useGameRoom() {
       compareValuesCards();
 
       setHiddenCards(true);
-      setTurn(0);
+      setTurn(-1);
 
       if (turn) {
         setTimeout(() => {
           setRound((prevRound) => prevRound + 1);
           setShowAttributeModal(true);
-          setTurn(0);
           setPlayedCards([]);
           setHiddenCards(false);
         }, 2000);
@@ -93,6 +92,7 @@ export default function useGameRoom() {
 
   const handleChangeAttribute = (attribute: Attributes) => {
     setAttributeActive(attribute);
+    setTurn(0);
     handleCloseshowAttributeModal();
   };
 

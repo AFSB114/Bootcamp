@@ -11,23 +11,41 @@ import useGameRoom from "@/hooks/useGameRoom";
 import useSessionsPlayed from "@/hooks/useSessionsPlayed";
 import { ArrowLeftIcon } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const UserProfile = ({
   user,
   variant,
   className = "",
+  turn,
 }: {
   user: string;
   variant: number;
   className?: string;
+  turn: boolean;
 }) => {
   return (
-    <div className={`flex flex-col items-center gap-2 ${className}`}>
+    <div
+      className={`relative flex flex-col items-center gap-2 z-10 ${className} ${
+        turn ? "scale-[120%]" : ""
+      }`}
+    >
       <Profile
         variant={variant}
         className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28"
       />
       <h1 className="text-white text-sm md:text-base font-semibold">{user}</h1>
+      {turn && (
+        <div className="absolute bottom-6 left-0 z-[-1] w-full h-full">
+          <Image
+            src="/img/Aura-Saiyan.png"
+            alt="turn"
+            className="object-cover object-center scale-[165%] w-full h-full drop-shadow-lg drop-shadow-amber-400"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+      )}
     </div>
   );
 };
@@ -89,9 +107,7 @@ export default function Page() {
                   <UserProfile
                     user={user.playerId.username}
                     variant={index}
-                    className={
-                      turn == index ? "bg-gradient-to-r from-yellow-500 to-orange-500 border-2 border-e-amber-500 border-0" : ""
-                    }
+                    turn={turn == index}
                   />
                   <h1>{playerScores[index].score}</h1>
                 </div>
@@ -117,7 +133,7 @@ export default function Page() {
             <UserProfile
               user={playerScores[0].playerId.username}
               variant={0}
-              className={turn == 0 ? "border-2 border-e-amber-500" : ""}
+              turn={turn == 0}
             />
             <h1>{playerScores[0].score}</h1>
           </div>
@@ -154,7 +170,7 @@ export default function Page() {
             <UserProfile
               user={playerScores[1].playerId.username}
               variant={1}
-              className={turn == 1 ? "border-2 border-e-amber-500" : ""}
+              turn={turn == 1}
             />
             <h1>{playerScores[1].score}</h1>
           </div>

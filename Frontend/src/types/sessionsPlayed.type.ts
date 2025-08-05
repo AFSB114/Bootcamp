@@ -1,4 +1,3 @@
-import type { CardType } from "./card.type";
 import type { GameSessionType } from "./gameSession.type";
 import type { PlayerScoreType, PlayerType } from "./players.type";
 
