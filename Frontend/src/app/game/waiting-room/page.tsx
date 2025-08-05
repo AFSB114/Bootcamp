@@ -4,18 +4,28 @@ import CustomSelect from "@/components/CustomSelect";
 import Profile from "@/components/Profile";
 import usePlayer from "@/hooks/usePlayer";
 import useSessionsPlayed from "@/hooks/useSessionsPlayed";
-import useWItingRoom from "@/hooks/useWItingRoom";
+import useWaitingRoom from "@/hooks/useWaitingRoom";
 import { type PlayerScoreType } from "@/types/players.type";
 import { ArrowLeftIcon, PlusIcon, XCircleIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function Page() {
-  const { numPlayers, showModal, formNewPlayer, handleSelect, handleChange, handleAddPlayer, handleSubmit, handleCloseModal, handlePlaySession } = useWItingRoom();
+  const {
+    numPlayers,
+    showModal,
+    formNewPlayer,
+    handleSelect,
+    handleChange,
+    handleAddPlayer,
+    handleSubmit,
+    handleCloseModal,
+    handlePlaySession,
+  } = useWaitingRoom();
   const { playerList } = usePlayer();
   const { playerScores } = useSessionsPlayed();
 
   return (
-    <div className="relative flex justify-center items-center w-full h-screen bg-[url('./../assets/img/Background-Dragon-Ball.png')] bg-cover bg-no-repeat bg-center p-4">
+    <div className="relative flex justify-center items-center w-full h-screen bg-[url('./../../public/img/Background-Dragon-Ball.png')] bg-cover bg-no-repeat bg-center p-4">
       <Link
         href="../.."
         className="absolute left-5 top-5 bg-zinc-800/60 rounded-full p-2 hover:bg-orange-500 transition-colors duration-200"

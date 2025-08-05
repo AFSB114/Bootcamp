@@ -4,6 +4,7 @@ import com.example.demo.game_session.GameSession;
 import com.example.demo.player.Player;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class SessionsPlayed {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

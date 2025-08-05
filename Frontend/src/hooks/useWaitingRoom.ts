@@ -2,13 +2,11 @@
 
 import type { PlayerType } from "@/types/players.type";
 import { useRouter } from "next/navigation";
-import { useState, ChangeEvent } from "react";
-import useCard from "./useCard";
-import useGameSession from "./useGameSession";
+import { ChangeEvent, useState } from "react";
 import usePlayer from "./usePlayer";
 import useSessionsPlayed from "./useSessionsPlayed";
 
-export default function useWItingRoom() { 
+export default function useWaitingRoom() { 
   const [numPlayers, setNumPlayers] = useState(2);
   const [showModal, setShowModal] = useState(false);
   const [formNewPlayer, setFormNewPlayer] = useState<Omit<PlayerType, "id">>({
@@ -21,7 +19,6 @@ export default function useWItingRoom() {
   const { addPlayerScore, assignPlayerScore } =
     useSessionsPlayed();
   const { playerList, addPlayer } = usePlayer();
-  const { getGameSession } = useGameSession();
   const router = useRouter();
 
   const handleSelect = (event: ChangeEvent<HTMLSelectElement>) => {
@@ -84,7 +81,7 @@ export default function useWItingRoom() {
 
   const handlePlaySession = () => {
     router.push("../game/game-room");
-  };1
+  };
 
   return {
     numPlayers,

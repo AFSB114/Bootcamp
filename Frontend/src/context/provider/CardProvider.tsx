@@ -4,7 +4,6 @@ import { useCallback, useEffect, useState } from "react";
 import CardContext from "../CardContext";
 import useSessionsPlayed from "@/hooks/useSessionsPlayed";
 import { CardType } from "@/types/card.type";
-import CardList from "@/mocks/CardList.json";
 
 export default function CardProvider({
   children,
@@ -14,19 +13,30 @@ export default function CardProvider({
   const { playerScores } = useSessionsPlayed();
   const numPlayers = playerScores.length;
   const apiUrl = "http://localhost:8085/api/v1";
-  
   const [cardList, setCardList] = useState<CardType[][]>([]);
-  
-  const getCards = useCallback(() => {
-    const cards = [...CardList];
+  const [cards, setCards] = useState<CardType[]>([]);
 
-    for (let i = cards.length - 1; i > 0; i--) {
+  const getCardsApi = useCallback(async () => {
+    const res = await fetch(`${apiUrl}/card/`);
+    if (!res.ok) throw new Error("Failed to fetch cards.");
+    const cards: CardType[] = await res.json();
+    setCards(cards);
+  }, [apiUrl])
+  
+  useEffect(() => {
+    getCardsApi();
+  }, [getCardsApi]);
+
+  const getCards = useCallback(() => {
+    const copyCards = [...cards];
+
+    for (let i = copyCards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [cards[i], cards[j]] = [cards[j], cards[i]];
+      [copyCards[i], copyCards[j]] = [copyCards[j], copyCards[i]];
     }
 
     const totalCards = playerScores.length * 8;
-    const sliceCards = cards.slice(0, totalCards);
+    const sliceCards = copyCards.slice(0, totalCards);
 
     const packsSlices: CardType[][] = [];
     for (let i = 0; i < sliceCards.length; i += 8) {
@@ -35,7 +45,7 @@ export default function CardProvider({
     }
 
     setCardList(packsSlices);
-  }, [numPlayers]);
+  }, [numPlayers, cards]);
 
   const deleteCard = (cardId: number) => {
     setCardList((currentCardList) =>

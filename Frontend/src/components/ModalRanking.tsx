@@ -1,7 +1,7 @@
-import Link from "next/link";
 import Profile from "@/components/Profile";
-import Modal from "./Modal";
 import useSessionsPlayed from "@/hooks/useSessionsPlayed";
+import { useRouter } from "next/navigation";
+import Modal from "./Modal";
 
 export default function RankingModal({
   showRankingModal,
@@ -10,13 +10,19 @@ export default function RankingModal({
   showRankingModal: boolean;
   handleCloseRankingModal: () => void;
   }) {
-  const { playerScores } = useSessionsPlayed();
-  
+  const { playerScores, saveOnServer } = useSessionsPlayed();
+  const router = useRouter();
+
   const orderedPlayers = playerScores.sort((a, b) => b.score - a.score);
   const winner = orderedPlayers[0];
   const otherPlayers = orderedPlayers.slice(1);
 
   const medals = ["🥇", "🥈", "🥉"];
+
+  const handleClick = () => {
+    saveOnServer();
+    router.push("../..");
+  };
   
   return (
     <Modal isOpen={showRankingModal} onClose={handleCloseRankingModal} backdrop={false}>
@@ -54,12 +60,13 @@ export default function RankingModal({
         </div>
 
         <div className="w-full flex flex-col items-center gap-4 mt-8">
-          <Link
-            href="../.."
+          <button
+            type="button"
+            onClick={handleClick}
             className="w-full text-center px-6 py-3 text-lg font-bold rounded-lg bg-gradient-to-r from-yellow-500 to-orange-500 text-white shadow-lg hover:shadow-orange-500/50 hover:scale-105 transition-all duration-300"
           >
             Salir del Juego
-          </Link>
+          </button>
         </div>
       </div>
     </Modal>

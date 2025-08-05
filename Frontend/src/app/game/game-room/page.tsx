@@ -2,19 +2,15 @@
 
 import Card from "@/components/Card";
 import Profile from "@/components/Profile";
-import { useCallback, useEffect, useState } from "react";
 
 import ModalAttributes from "@/components/ModalAttributes";
 import ModalRanking from "@/components/ModalRanking";
 import ModalWinRound from "@/components/ModelWinRound";
 import useCard from "@/hooks/useCard";
+import useGameRoom from "@/hooks/useGameRoom";
 import useSessionsPlayed from "@/hooks/useSessionsPlayed";
-import CardList from "@/mocks/CardList.json";
-import { Attributes } from "@/types/card.type";
-import { PlayedCardsType } from "@/types/gameRoom.type";
 import { ArrowLeftIcon } from "lucide-react";
 import Link from "next/link";
-import useGameRoom from "@/hooks/useGameRoom";
 
 const UserProfile = ({
   user,
@@ -94,7 +90,7 @@ export default function Page() {
                     user={user.playerId.username}
                     variant={index}
                     className={
-                      turn == index ? "border-2 border-e-amber-500" : ""
+                      turn == index ? "bg-gradient-to-r from-yellow-500 to-orange-500 border-2 border-e-amber-500 border-0" : ""
                     }
                   />
                   <h1>{playerScores[index].score}</h1>

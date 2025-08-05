@@ -2,6 +2,7 @@ package com.example.demo.card;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -9,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Card {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,17 +29,16 @@ public class Card {
     private int ki;
 
     @Column(nullable = false)
-    private int resistance;
+    private int stamina;
 
     @Column(nullable = false)
     private int especial;
 
-    @Column(name = "image_url", nullable = false, length = 100)
+    @Column(name = "image_url", nullable = false)
     private String imageUrl;
 
     @Column(nullable = false, length = 100)
     private String name;
 
-    @Column(length = 100)
     private String description;
 }

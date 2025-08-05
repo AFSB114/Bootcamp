@@ -1,4 +1,3 @@
-import type { CardType } from "./card.type";
 
 export interface PlayerType {
     id: string;
@@ -13,5 +12,4 @@ export interface PlayerContextType {
 export interface PlayerScoreType {
     playerId: PlayerType;
     score: number;
-    cards: CardType[];
 }

@@ -1,13 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Trophy } from "lucide-react";
-
-import image from "@/assets/img/Home-Vegeta.png";
-import RankingModal from "@/components/GlobalRanking"; // Asegúrate de que exista
-import GlobalRanking from "@/components/GlobalRanking";
+import { useState } from "react";
 
 export default function Home() {
   const [showRanking, setShowRanking] = useState(false);
@@ -23,7 +18,7 @@ export default function Home() {
         </button>
       </div> */}
 
-      {showRanking && (
+      {/* {showRanking && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <div className="relative">
             <GlobalRanking />
@@ -35,11 +30,11 @@ export default function Home() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
 
       <div className="w-1/2 h-full relative">
         <Image
-          src={image}
+          src="/img/Home-Vegeta.png"
           alt="Home-Vegeta"
           layout="fill"
           objectFit="cover"
